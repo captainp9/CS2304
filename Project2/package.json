@@ -1,0 +1,15 @@
+{
+  "name": "cs2304-project3",
+  "scripts": {
+    "test": "nightwatch",
+    "test-slow": "DELAY=1000 nightwatch",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "dependencies": {},
+  "devDependencies": {
+    "chromedriver": "^2.27.3",
+    "eslint": "^3.16.1",
+    "nightwatch": "^0.9.12"
+  }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="todo">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1>Twitter</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-md-offset-1">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <h2 id="current-user-header"></h2>
+                <hr />
+                <div class="form-group">
+                  <input id="switch-user-input" class="form-control" type="text" placeholder="User" />
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-default" id="switch-user-button">Switch User</button>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">Following</div>
+              <div class="panel-body">
+                <ul id="following-list">
+                </ul>
+                <hr />
+                <div class="form-group">
+                  <input id="follow-input" class="form-control" type="text" placeholder="Username" />
+                </div>
+                <button id="follow-button" class="btn btn-default">Follow</button>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">Followers</div>
+              <div class="panel-body">
+                <ul id="follower-list">
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <div class="form-group">
+                  <textarea id="tweet-input" class="form-control" rows="3" placeholder="What's Happening?"></textarea>
+                </div>
+                <div class="form-group">
+                  <button id="tweet-button" class="btn btn-primary">Tweet</button>
+                </div>
+              </div>
+            </div>
+            <ul id="tweet-list" class="list-group">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

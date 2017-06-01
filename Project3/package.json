@@ -1,0 +1,17 @@
+{
+  "name": "cs2304-project3",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "nightwatch",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "chromedriver": "^2.27.3",
+    "eslint": "^3.16.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "nightwatch": "^0.9.12"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "project2",
+  "version": "0.0.1",
+  "description": "CS2304, Spring 2016's first project building out the foundational logic of Twitter.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}

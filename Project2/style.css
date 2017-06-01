@@ -1,0 +1,7 @@
+#tweet-list li {
+  margin: 5px 0px;
+}
+
+.tweet-username {
+  font-weight: bold;
+}
